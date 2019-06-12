@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- cac String name cua layout activity_main-->
+
+    <string name="app_name">Điểm Danh Lớp Học</string>
+    <string name="logo_truong_dhbk">Logo</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Student">Student</string>
+    <string name="Lecturer">Lecturer</string>
+    <string name="Sign_in_as">Sign in as</string>
+    <string name="Sign_in">SIGN IN</string>
+    <string name="nhap_vao_password">Nhập vào Password</string>
+    <string name="nhap_vao_email">Nhập vào Email</string>
+
+
+    <!-- thanh toolbar -->
+
+    <string name="toolbar">Điểm Danh Lớp Học</string>
+    <string name="setting">Setting</string>
+
+    <!--cac string name cua layout Lecturer Drawer-->
+    <string name="home">Home</string>
+    <string name="tai_khoan">Tài Khoản</string>
+    <string name="diem_danh">Điểm Danh</string>
+    <string name="thoi_khoa_bieu">Thời Khóa Biểu</string>
+    <string name="thong_ke">Thống Kê</string>
+    <string name="tro_giup">Trợ Giúp</string>
+    <string name="phan_hoi">Phản Hồi</string>
+    <string name="gioi_thieu">Giới Thiệu</string>
+
+    <!--String navigation header-->
+    <string name="nav_header_view">Navigation Header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--String tai_khoan_gv -->
+    <string name="ho_ten">Họ Tên:</string>
+    <string name="Gmail">Gmail:</string>
+    <string name="phong_lam_viec">Địa chỉ:</string>
+    <string name="vien">Viện:</string>
+    <string name="chuyen_nganh">Chuyên Ngành:</string>
+
+    <!--String phan hoi-->
+    <string name="nhap_vao">Nhập vào văn bản</string>
+    <string name="y_kien">Hãy góp ý để chúng tôi hoàn thiện sản phẩm</string>
+    <string name="send">Gửi</string>
+
+    <!--String tro giup-->
+    <string name="huong_dan_diem_danh">Làm thế nào để nhận diện khuôn mặt?</string>
+    <string name="tl1">Nếu bạn là sinh viên thì bạn không có chức năng nhận diện</string>
+    <string name="tl2">Nếu bạn là giảng viên hãy làm theo các bước sau đây:</string>
+    <string name="tl3"> -> Chọn Menu</string>
+    <string name="tl4"> -> Chọn Điểm Danh</string>
+    <string name="tl5"> -> Chọn Camera để chụp ảnh</string>
+    <string name="tl6"> -> Chọn Detection để phá khuôn hiện khuôn mặt</string>
+    <string name="tl7"> -> Chọn Recognition để nhận diện khuôn mặt</string>
+
+    <string name="cac_chuc_nang_app">Một số chức năng App</string>
+    <string name="tl8">Điểm danh: Điểm danh sinh viên sử dụng nhận diện khuôn mặt</string>
+    <string name="tl9">Thống kê: Thống kê số lượng buổi đi học của sinh viên</string>
+
+    <!--String diem danh gv-->
+    <string name="Browse_for_a_face_image">Dectection Face</string>
+    <string name="recognition">Recognition Face</string>
+    <string name="img_face">Image with faces to analyze</string>
+    <string name="take_a_photo">Camera</string>
+</resources>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@color/colorMaroon"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Tai_khoan_gv"
+            android:icon="@drawable/ic_account"
+            android:title="@string/tai_khoan" />
+
+        <item
+            android:id="@+id/Diem_danh_gv"
+            android:icon="@drawable/ic_diemdanh"
+            android:title="@string/diem_danh" />
+
+        <item
+            android:id="@+id/thoi_khoa_bieu_gv"
+            android:icon="@drawable/ic_timetable"
+            android:title="@string/thoi_khoa_bieu"/>
+
+        <item
+            android:id="@+id/thong_ke_gv"
+            android:icon="@drawable/ic_statistic"
+            android:title="@string/thong_ke" />
+
+        <item
+            android:id="@+id/tro_giup_gv"
+            android:icon="@drawable/ic_help"
+            android:title="@string/tro_giup" />
+
+        <item
+            android:id="@+id/phan_hoi_gv"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/phan_hoi" />
+
+        <item
+            android:id="@+id/gioi_thieu_gv"
+            android:icon="@drawable/ic_introduction"
+            android:title="@string/gioi_thieu" />
+    </group>
+</menu>

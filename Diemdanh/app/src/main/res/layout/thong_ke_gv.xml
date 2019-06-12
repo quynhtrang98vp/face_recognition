@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="THỐNG KÊ ĐIỂM DANH"
+        android:textColor="#FA552F"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TableRow android:weightSum="3">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Họ tên"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="MSSV "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Số lần"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </TableRow>
+        <TableRow android:weightSum="3"
+            android:id="@+id/mon1">
+
+            <TextView
+                android:id="@+id/tvTen1"
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:ignore="InvalidId" />
+
+            <TextView
+                android:id="@+id/tvMSSV1"
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvSolan1"
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </TableRow>
+        <TableRow android:weightSum="3"
+            android:id="@+id/mon2">
+
+            <TextView
+                android:id="@+id/tvTen2"
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:ignore="InvalidId" />
+
+            <TextView
+                android:id="@+id/tvMSSV2"
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvSolan2"
+                android:layout_weight="1"
+                android:background="@drawable/cell_sharp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                tools:ignore="DuplicateIds" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

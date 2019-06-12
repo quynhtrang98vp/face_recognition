@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar">
+
+    <fragment
+        android:name="com.example.diem_danh_sv.fragment.back_ground"
+        android:id="@+id/frag_tai_khoan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/back_ground" />
+</RelativeLayout>

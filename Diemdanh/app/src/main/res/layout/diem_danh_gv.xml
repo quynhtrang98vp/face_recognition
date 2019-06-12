@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView1"
+        android:layout_above="@+id/textName"
+        android:contentDescription="@string/img_face"/>
+
+    <TextView
+        android:id = "@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textMSSV"
+        />
+    <TextView
+        android:id = "@+id/textMSSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/button1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/take_a_photo"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Browse_for_a_face_image"
+        android:id="@+id/button1"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/button2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recognition"
+        android:id="@+id/button3"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/button1"/>
+</RelativeLayout>

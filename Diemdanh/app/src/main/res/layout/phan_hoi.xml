@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/gop_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorMaroon"/>
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/y_kien"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="270dp"
+        android:background="@drawable/custom_txt_gui"
+        android:textColor="@color/colorDarkSalmon"
+        android:text="@string/send"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/phan_hoi"
+        android:layout_width="320dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:autofillHints="edt_phan_hoi"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        tools:targetApi="o"
+        android:background="#C0C0C0"
+        android:hint="@string/nhap_vao"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        android:gravity="top"
+        android:textSize="15sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
+</RelativeLayout>

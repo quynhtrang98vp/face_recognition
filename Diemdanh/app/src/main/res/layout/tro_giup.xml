@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="@string/huong_dan_diem_danh"
+        android:background="#C0C0C0"
+        />
+
+    <TextView
+        android:id="@+id/tl_1_tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="@string/tl1"
+        />
+
+    <TextView
+        android:id="@+id/tl_2_tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="@string/tl2"
+        />
+    <TextView
+        android:id="@+id/tl_3_tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="20dp"
+        android:text="@string/tl3"
+        />
+
+    <TextView
+        android:id="@+id/tl_4_tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="20dp"
+        android:text="@string/tl4"
+        />
+
+    <TextView
+        android:id="@+id/tl_5_tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="20dp"
+        android:text="@string/tl5"
+        />
+
+    <TextView
+        android:id="@+id/tl_6_tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="20dp"
+        android:text="@string/tl6"
+        />
+
+    <TextView
+        android:id="@+id/tl_7_tro_giup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="20dp"
+        android:text="@string/tl7"
+        />
+
+    <TextView
+        android:id="@+id/tro_giup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="@string/cac_chuc_nang_app"
+        android:background="#C0C0C0"
+        />
+
+    <TextView
+        android:id="@+id/tl_1_tro_giup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="@string/tl8"
+        />
+
+    <TextView
+        android:id="@+id/tl_2_tro_giup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingStart="10dp"
+        android:text="@string/tl9"
+        />
+
+</LinearLayout>

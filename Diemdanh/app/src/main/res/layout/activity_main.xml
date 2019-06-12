@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMaroon"
+    tools:context=".MainActivity"
+    >
+
+    <!--logo ung dung-->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="90dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/logo_truong_dhbk"
+        android:src="@drawable/logo"
+        />
+
+    <!--phan nhap email-->
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="260dp"
+        android:autofillHints="Email"
+        tools:targetApi="o"
+        android:background="@drawable/custom_edittext"
+        android:inputType="textEmailAddress"
+        android:hint="@string/nhap_vao_email"
+        android:textSize="15sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        />
+
+    <TextView
+        android:id="@+id/viewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="228dp"
+        android:background="@color/colorMaroon"
+        android:text="@string/Email"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <!--Phan nhap Password-->
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="330dp"
+        android:autofillHints="Email"
+        tools:targetApi="o"
+        android:background="@drawable/custom_edittext"
+        android:inputType="textPassword"
+        android:hint="@string/nhap_vao_password"
+        android:textSize="15sp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        />
+
+    <TextView
+        android:id="@+id/viewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/colorMaroon"
+        android:text="@string/Password"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <!--Sign in as-->
+    <TextView
+        android:id="@+id/sign_in_as"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="385dp"
+        android:text="@string/Sign_in_as"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        />
+
+    <!--Dang nhap la giang vien hoac sinh vien-->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="410dp"
+        >
+        <RadioButton
+            android:id="@+id/student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:text="@string/Student"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:buttonTint="@color/colorWhite"
+            tools:targetApi="o"
+            />
+
+        <RadioButton
+            android:id="@+id/lecturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
+            android:text="@string/Lecturer"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:buttonTint="@color/colorWhite"
+            tools:targetApi="o"
+            />
+    </RadioGroup>
+
+    <!--Sign in-->
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/custom_textview"
+        android:paddingStart="90dp"
+        android:paddingEnd="90dp"
+        android:text="@string/Sign_in"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
